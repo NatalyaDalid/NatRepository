@@ -148,6 +148,25 @@
     </modules>
 
     <dependencies>
+        
+         <dependency>
+                  <groupId>org.springframework</groupId>
+                  <artifactId>spring-core</artifactId>
+                   <version>5.0.1.RELEASE</version>
+         </dependency>
+
+         <dependency>
+                  <groupId>dom4j</groupId>
+                  <artifactId>dom4j</artifactId>
+                  <version>1.4-dev-2</version>
+         </dependency>
+
+    <!-- sample dependency to scan for vulnerabilities -->
+         <dependency>
+                  <groupId>struts</groupId>
+                  <artifactId>struts</artifactId>
+                  <version>1.2.9</version>
+         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
