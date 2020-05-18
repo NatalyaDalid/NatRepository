@@ -14,7 +14,12 @@
     </properties>
 
     <dependencies>
-         
+         <dependency>
+                  <groupId>dom4j</groupId>
+                  <artifactId>dom4j</artifactId>
+                  <version>1.4-dev-2</version>
+         </dependency>
+
     <!-- sample dependency to scan for vulnerabilities -->
          <dependency>
                   <groupId>struts</groupId>
